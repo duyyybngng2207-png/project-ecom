@@ -1,0 +1,13 @@
+<?php 
+class Group extends CoreModel{
+    public function __construct()
+    {
+        parent::__construct();
+    }
+    public function getAllGroups(){
+        return $this->getAll("SELECT * FROM `groups`");
+    }
+    public function insertGroups($data){
+        return $this->insert('groups',$data);
+    }
+}

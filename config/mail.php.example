@@ -1,0 +1,6 @@
+<?php
+// Copy file nay thanh config/mail.php roi dien thong tin Gmail cua ban
+// Mat khau la App Password cua Gmail: https://myaccount.google.com/apppasswords
+const _MAIL_USER = 'your-email@gmail.com';
+const _MAIL_PASS = 'your-app-password';
+const _MAIL_FROM_NAME = 'Course';
